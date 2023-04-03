@@ -20,5 +20,5 @@ inputs:
     description: "If true, the action will not create a cluster, just acquire the tools"
     default: "false"
 runs:
-  using: "node12"
+  using: "node16"
   main: "lib/main.js"
